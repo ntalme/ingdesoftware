@@ -1,0 +1,95 @@
+/* Fuente base */
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  background-color: #f4f6f9;
+} 
+
+/* Fuente para todo el sidebar */
+.sidebar{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+/* Fondo general del sidebar */
+.main-sidebar {
+  background-color: #101029;
+  color: #ffffff;
+}
+
+/* Título del logo */
+.titulo-logo {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Espaciado en el link del logo */
+.brand-link {
+  height: 58px;
+  background-color: #101029;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Texto de los ítems */
+.nav-link {
+  font-size: 0.8rem;
+  color: #ffffff;
+  border-radius: 4px;
+  margin-bottom: 2px;
+}
+
+/* Espaciado entre los ítems del sidebar */
+.nav-sidebar .nav-item {
+  margin-bottom: 12px;
+}
+
+/* Hover sobre los ítems */
+.nav-link:hover {
+  background-color: #34344e;
+  color: #ffffff;
+}
+
+/* Ítem activo */
+.nav-link.active {
+  background-color: #4a4a71;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Submenú */
+.nav-treeview .nav-link {
+  padding-left: 2rem;
+  font-size: 0.8rem;
+  color: #ffffff;
+}
+
+/* Hover submenú */
+.nav-treeview .nav-link:hover {
+  background-color: #3a3a5a;
+  color: #ffffff;
+}
+
+/* Flecha del dropdown */
+.fa-angle-down {
+  float: right;
+  margin-top: 5px;
+  color: #9aa0ac;
+}
+
+/* Bordes y elevación */
+.sidebar .elevation-4 {
+  box-shadow: none;
+  border-right: 1px solid #2a2a3f;
+}
+
+/* Cambia el color de fondo y texto del ítem activo en el sidebar */
+.sidebar-dark-primary .nav-sidebar .nav-link.active {
+  background-color: #8e8e9f !important; /* Fondo azul */
+  color: #ffffff !important;            /* Texto blanco */
+}
+
+/* Opcional: cambia color de ícono también */
+.sidebar-dark-primary .nav-sidebar .nav-link.active i {
+  color: #ffffff !important;
+}

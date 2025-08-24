@@ -1,0 +1,117 @@
+/* Fuente base */
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  background-color: #f4f6f9;
+} 
+
+/* Encabezado */
+.content-header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #031322 !important;
+}
+
+/* Tabla */
+.table {
+  font-size: 0.95rem;
+}
+
+.table thead {
+  background-color: #be8a5f;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.table th, .table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table tbody tr:hover {
+  background-color: #f0f8ff;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Botón "Añadir stock" */
+.btnAgregarStock {
+  background-color: #216aa7; 
+  border-color: #216aa7;
+  color: white;
+  font-weight: 500;
+  padding: 4px 10px;
+  font-size: 0.85rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btnAgregarStock:hover {
+  background-color: #0d4572;
+  border-color: #0d4572;
+}
+
+/* ========== Modal: Añadir Stock ========== */
+.modal-header.bg-primary {
+  background-color: #181838 !important;
+  border-bottom: none;
+}
+
+.modal-header .modal-title {
+  font-weight: 600;
+}
+
+.modal-body label {
+  font-weight: 500;
+  color: #343a40;
+}
+
+.modal-body .form-control {
+  border-radius: 0.375rem;
+  font-size: 0.95rem;
+}
+
+.modal-footer .btn {
+  min-width: 100px;
+  font-weight: 500;
+}
+
+/* Botón Cancelar */
+.modal-footer .btn-secondary {
+  background-color: #fc0800 !important;
+  border-color: #fc0800 !important;
+}
+
+.modal-footer .btn-secondary:hover  {
+  background-color: #850c08;
+  border-color: #850c08;;
+}
+
+
+/* Botón Guardar */
+.modal-footer .btn-primary {
+  background-color: #233a79;  
+  border-color: #233a79;
+}
+
+.modal-footer .btn-primary:hover {
+  background-color: #181744; 
+  border-color: #181744;
+  color: #fff;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .table {
+    font-size: 0.85rem;
+  }
+
+  .btnAgregarStock {
+    font-size: 0.75rem;
+    padding: 3px 8px;
+  }
+
+  .modal-header .modal-title {
+    font-size: 1rem;
+  }
+}

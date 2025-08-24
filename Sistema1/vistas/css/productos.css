@@ -1,0 +1,147 @@
+/* Fuente base */
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  background-color: #f4f6f9;
+} 
+
+/* Estilo general del encabezado */
+.content-header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #031322;
+}
+
+/* Botón Agregar producto */
+.card-header .btn {
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  box-shadow: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.card-header .btn i {
+  margin-right: 6px;
+}
+
+/* Tabla */
+.table {
+  font-size: 0.95rem;
+}
+
+.table thead {
+  background-color: #be8a5f;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.table th,
+.table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table tbody tr:hover {
+  background-color: #f0f8ff;
+}
+
+/* Color personalizado del botón Agregar producto */
+.btn-agregar-producto {
+  background-color: #216aa7; 
+  border-color: #216aa7;
+  color: white;
+}
+
+/* Al pasar el mouse */
+.btn-agregar-producto:hover {
+  background-color: #0d4572;
+  border-color: #0d4572;
+}
+
+/* Botón eliminar */
+.btnEliminarProducto {
+  padding: 4px 10px;
+  font-size: 0.85rem;
+}
+
+/* Ícono eliminar dentro del botón */
+.btnEliminarProducto i {
+  margin-right: 4px;
+}
+
+/* ========== Modal: Agregar producto ========== */
+
+.modal-header.bg-primary {
+  background-color: #181838 !important;
+}
+
+.modal-header .modal-title {
+  font-weight: 600;
+}
+
+.modal-header i {
+  margin-right: 6px;
+}
+
+.modal-body .form-group label {
+  font-weight: 500;
+  color: #000203;
+}
+
+.modal-body .form-control {
+  border-radius: 0.375rem;
+  font-size: 0.95rem;
+}
+
+/* Inputs en filas */
+.modal-body .row .form-group {
+  margin-bottom: 1rem;
+}
+
+/* Botones del modal */
+.modal-footer .btn {
+  min-width: 110px;
+  font-weight: 500;
+}
+
+/* Botón Cancelar */
+.modal-footer .btn-secondary {
+  background-color: #fc0800;
+  border-color: #fc0800;
+}
+
+.modal-footer .btn-secondary:hover  {
+  background-color: #850c08;
+  border-color: #850c08;;
+}
+
+/* Botón Guardar */
+.btn-guardar-producto {
+  background-color: #233a79;  
+  border-color: #233a79;
+  color: #ffffff;
+  font-weight: 600;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-guardar-producto:hover {
+  background-color: #181744; 
+  border-color: #181744;
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .content-header h1 {
+    font-size: 1.2rem;
+  }
+
+  .table {
+    font-size: 0.85rem;
+  }
+
+  .btnEliminarProducto {
+    font-size: 0.75rem;
+  }
+}
